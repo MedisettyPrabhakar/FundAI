@@ -19,8 +19,8 @@ Before you begin, make sure you have the following installed:
 Open your terminal (or VSCode integrated terminal) and run:
 
 ```bash
-git clone https://github.com/MedisettyPrabhakar/AI-Optimized-Crowdfunding-Platform-with-Campaign-Success-Prediction
-cd FundAI
+git clone https://github.com/MedisettyPrabhakar/FundAI
+cd FundAI-main  ( nagivate to extra cd FundAI-main if you have dupilicate)
 ```
 # Step 2: Open Project in VSCode
 
@@ -72,6 +72,8 @@ This will install:
 - uvicorn
 - and other dependencies
 
+  **Also install these in cd backend**
+( `pip install fastapi uvicorn numpy pandas scipy pydantic python-multipart starlette` )
 ### 3.4 Create Backend Environment File
 
 Create a file named `.env` in the `backend` folder with the following content:
